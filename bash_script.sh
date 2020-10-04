@@ -7,3 +7,8 @@ ls -alF /home/gcam > lista_HOME.txt
 
 #Chamando o arquivo para confirmação
 cat lista_HOME.txt
+
+#Imprimindo a data atual na tela, com o dia da semana
+date "+%d %B %Y , %A"
+
+
