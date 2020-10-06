@@ -51,4 +51,4 @@ else:
 if 'CDS1_true' and 'CDS2_true' in locals(): #Verificando se as variáveis existem. Só vão existir se cumpriram os requisitos anteriores
 	print('A sequência concatenada de CDS1 e CDS2 é', CDS1_true+CDS2_true)
 else:
-	print('Há um erro em pelo menos uma das regiões codificantes, favor verificar')
+	print('Pelo uma das regiões codificantes não estão de acordo com o requerido')
