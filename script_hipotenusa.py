@@ -15,7 +15,7 @@ else:
 if entrada2.isdigit():
 	b  = int(entrada2) 
 else:
-        print(entrada2, 'não é um valor numérico ou um número inteiro') 
+        print(entrada2, 'não é um valor numérico inteiro ou não está dentro do intervalo permitido') 
 	
 #Calculo do quadrado da hipotenusa
 if 'a' and 'b' in locals(): #Verificando se as variaveis existem, ou seja, se foram criadas de acordo com as condicionais anteriores
