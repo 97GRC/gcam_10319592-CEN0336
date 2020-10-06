@@ -45,7 +45,7 @@ if CDS2[-3:] == 'TAA' or CDS2[-3:] == 'TAG' or CDS2[-3:] == 'TGA':
 	CDS2_true = CDS2 #Variavel criada caso a CDS2 termine com um códon de parada
 	print('O último códon da sequência CDS2 é um códon de parada')
 else:
-	print('O último códon da CDS2 não é um códon de parada')
+	print('O último códon da CDS2 não é um dos códon de parada')
 
 #Concatenando as CDS caso atendam os requisitos acima
 if 'CDS1_true' and 'CDS2_true' in locals(): #Verificando se as variáveis existem. Só vão existir se cumpriram os requisitos anteriores
